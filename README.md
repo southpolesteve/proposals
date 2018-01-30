@@ -47,6 +47,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 | -------- | -------------------------------------------------------------------------------------------- | -------------------------------------------- | -------------------------------------------- |
 |          | [`Date.parse` fallback semantics][date-parse]                                                | Morgan Phillips                              | Morgan Phillips                              |
 |          | [`export v from "mod";` statements][export-from]                                             | Lee Byron                                    | Ben Newman, John-David Dalton                |
+|          | [`export * as v from "mod";`statements][export-ns]                                           | Lee Byron                                    | Ben Newman, John-David Dalton                |
 | :rocket: | [Observable][observable]                                                                     | Jafar Husain                                 | Jafar Husain, Mark Miller                    |
 |          | [WeakRefs][weakrefs]                                                                         | Dean Tribble                                 | Dean Tribble                                 |
 |          | [Frozen Realms][frozen-realms]                                                               | Mark Miller, Chip Morningstar, Caridy Patiño | Mark Miller, Chip Morningstar, Caridy Patiño |
@@ -120,6 +121,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [private-methods]: https://github.com/tc39/proposal-private-methods
 [date-parse]: https://github.com/mrrrgn/proposal-date-time-string-format
 [export-from]: https://github.com/tc39/proposal-export-default-from
+[export-ns]: https://github.com/tc39/proposal-export-ns-from
 [observable]: https://github.com/tc39/proposal-observable
 [matchall]: https://github.com/tc39/String.prototype.matchAll
 [weakrefs]: https://github.com/tc39/proposal-weakrefs
